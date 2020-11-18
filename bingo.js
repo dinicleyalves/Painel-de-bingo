@@ -14,7 +14,7 @@ $(function() {
         {
 
         	var number = 1 + Math.floor(Math.random() * 99);
-
+ 
         	if(nSorteados[0] === null)
         	{
         		nSorteados.push(number);

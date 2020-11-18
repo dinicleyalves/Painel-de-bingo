@@ -23,7 +23,7 @@
 		//Carregar o último Id de sorteio...
 		//Está sendo utilizado o PDO do php....
 
-		$con = new PDO("mysql:host=localhost;dbname=bingo_bd", "root", "");
+		$con = new PDO("mysql:host=localhost;dbname=bingo", "root", "");
 
 		// configuraçôes que estavam em meu localhost
 
@@ -117,7 +117,7 @@
 						} while (in_array($val,$o));
 						array_push($numeros_cartela, $val);
 						$o[(100+$i)] = $val;
-
+ 
 					}
 
 					//metodo utilizado para que as cartelas ficarem salvas de maneira mais organizada no bd 

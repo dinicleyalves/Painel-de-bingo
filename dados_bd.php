@@ -1,7 +1,7 @@
 <?php
 	
 	mysql_connect("localhost", "root", "") or die(mysql_error());
-    mysql_select_db("u567057051_perfi") or die(mysql_error());
+    mysql_select_db("bingo") or die(mysql_error());
 
    //recebe os parâmetros
  
@@ -22,7 +22,7 @@
     {
         //retorna 0 para no sucesso do ajax saber que foi um erro
         echo "0";
-    }
+    } 
 
 
 ?> 

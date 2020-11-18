@@ -25,7 +25,7 @@ for ($k = 0; $k <= 10; $k++){ // Loop para gerar k cartelas
 		do {
 			$val = rand(1,15);
 		} while (in_array($val,$b));
-		if (strlen($val) == 1){ $val = '0'.$val; } // adiciona 0 antes do número para exibir corretamente
+		if (strlen($val) == 1){ $val = '0'.$val; } // adiciona 0 antes do nï¿½mero para exibir corretamente
 		$b[(100+$i)] = $val;
 	}
 	for ($j = 0; $j <= 5; $j++){
@@ -54,12 +54,12 @@ for ($k = 0; $k <= 10; $k++){ // Loop para gerar k cartelas
 	}
 	
 	$tal = sprintf("%04s",$k+1);
-	// exibição simples dos numeros via colunas, use <pre> para visualizar corretamente...
+	// exibiï¿½ï¿½o simples dos numeros via colunas, use <pre> para visualizar corretamente...
 	echo "--------------------<br /><br /><br />
 	<table cellpadding=\"0\" cellspacing=\"0\" width=\"950\">
     <tr>
         <td align=\"center\" height=\"250\">
-            <p align=\"center\"><b><font face=\"Arial\">CONFERÊNCIA</font></b></p>
+            <p align=\"center\"><b><font face=\"Arial\">CONFERï¿½NCIA</font></b></p>
             <table cellspacing=\"0\" width=\"250\" border=\"1\" bordercolordark=\"white\" bordercolorlight=\"black\">
         <tr><td><p align=\"center\"><span style=\"font-size:15pt;\">$b[101]</span></p></td>
             <td><p align=\"center\"><span style=\"font-size:15pt;\">$in[101]</span></p></td>
@@ -93,12 +93,12 @@ for ($k = 0; $k <= 10; $k++){ // Loop para gerar k cartelas
             <p style=\"line-height:150%; margin-top:0; margin-bottom:0; margin-top:0; margin-bottom:0;  \">
 			<font face=\"Arial\" style=\"font-size:15pt;\" >IV BINGO DO BABA DOS VETERANOS</font></p> 
 <p style=\"line-height:150%; margin-top:0; margin-bottom:0; margin-top:0; margin-bottom:0;\"><font face=\"Arial\" style=\"font-size:14pt;\" >R$ 
-3,00 &nbsp;&nbsp;- &nbsp;&nbsp;Cartela Nº </font><b><font face=\"Arial\" style=\"font-size:18pt;\" > $tal</font></b></p>
+3,00 &nbsp;&nbsp;- &nbsp;&nbsp;Cartela Nï¿½ </font><b><font face=\"Arial\" style=\"font-size:18pt;\" > $tal</font></b></p>
 <p style=\"line-height:150%; margin-top:0; margin-bottom:0; margin-top:0; margin-bottom:0;\"><font face=\"Arial\" style=\"font-size:14pt;\" >Nome: 
 ____________________________________________</font></p>
 <p style=\"line-height:150%; margin-top:0; margin-bottom:0; margin-top:0; margin-bottom:0;\"><font face=\"Arial\" style=\"font-size:14pt;\" >End.: 
 _____________________________________________</font></p>
-<p style=\"line-height:150%; margin-top:0; margin-bottom:0; margin-top:0; margin-bottom:0;\"><font face=\"Arial\" style=\"font-size:14pt;\" >Responsável: 
+<p style=\"line-height:150%; margin-top:0; margin-bottom:0; margin-top:0; margin-bottom:0;\"><font face=\"Arial\" style=\"font-size:14pt;\" >Responsï¿½vel: 
 Diretoria do Baba</font></p>
 
         </td>
@@ -111,7 +111,7 @@ Diretoria do Baba</font></p>
             <img src=\"bingocrb.jpg\" border=\"0\" height=\"255px\" width=\"830px\" >
 			<br /><br />
 		<p align=\"center\" style=\"line-height:150%; margin-top:0; margin-bottom:0; margin-top:0; margin-bottom:0;\"><font face=\"Arial\" style=\"font-size:14pt;\" >
-		Cartela Nº </font><b><font face=\"Arial\" style=\"font-size:18pt;\" > $tal</font></b></p>	
+		Cartela Nï¿½ </font><b><font face=\"Arial\" style=\"font-size:18pt;\" > $tal</font></b></p>	
 	<br /><br />
 	
         </td>
@@ -121,15 +121,15 @@ Diretoria do Baba</font></p>
     <tr>
         <td>
             
-            <p align=\"center\"><font face=\"Myriad Pro\"><span style=\"font-size:12pt;\">&nbsp;&nbsp; 1º PREMIO - </span><b><span style=\"font-size:13pt;\">R$ 300,00 (Dinheiro)</span></b></font>
+            <p align=\"center\"><font face=\"Myriad Pro\"><span style=\"font-size:12pt;\">&nbsp;&nbsp; 1ï¿½ PREMIO - </span><b><span style=\"font-size:13pt;\">R$ 300,00 (Dinheiro)</span></b></font>
         </td>
         <td>
             
-            <p align=\"center\"><font face=\"Myriad Pro\"><span style=\"font-size:12pt;\">&nbsp;&nbsp; 2º PREMIO - </span><b><span style=\"font-size:13pt;\">01 FOGÃO 4 BOCAS</span></b></font>
+            <p align=\"center\"><font face=\"Myriad Pro\"><span style=\"font-size:12pt;\">&nbsp;&nbsp; 2ï¿½ PREMIO - </span><b><span style=\"font-size:13pt;\">01 FOGï¿½O 4 BOCAS</span></b></font>
         </td>
         <td>
             
-            <p align=\"center\"><font face=\"Myriad Pro\"><span style=\"font-size:12pt;\">&nbsp;&nbsp; 3º PREMIO - </span><b><span style=\"font-size:13pt;\">01 DVD COMPLETO</span></b></font>
+            <p align=\"center\"><font face=\"Myriad Pro\"><span style=\"font-size:12pt;\">&nbsp;&nbsp; 3ï¿½ PREMIO - </span><b><span style=\"font-size:13pt;\">01 DVD COMPLETO</span></b></font>
         </td>
     </tr>
     <tr>
@@ -221,15 +221,15 @@ Diretoria do Baba</font></p>
     <tr>
         <td>
             
-            <p align=\"center\"><font face=\"Myriad Pro\"><span style=\"font-size:12pt;\">&nbsp;&nbsp; 4º PREMIO - </span><b><span style=\"font-size:13pt;\">01 LIQUIDIFICADOR</span></b></font>
+            <p align=\"center\"><font face=\"Myriad Pro\"><span style=\"font-size:12pt;\">&nbsp;&nbsp; 4ï¿½ PREMIO - </span><b><span style=\"font-size:13pt;\">01 LIQUIDIFICADOR</span></b></font>
         </td>
         <td>
             
-            <p align=\"center\"><font face=\"Myriad Pro\"><span style=\"font-size:12pt;\">&nbsp;&nbsp; 5º PREMIO - </span><b><span style=\"font-size:13pt;\">01 VENTILADOR</span></b></font>
+            <p align=\"center\"><font face=\"Myriad Pro\"><span style=\"font-size:12pt;\">&nbsp;&nbsp; 5ï¿½ PREMIO - </span><b><span style=\"font-size:13pt;\">01 VENTILADOR</span></b></font>
         </td>
         <td>
             
-            <p align=\"center\"><font face=\"Myriad Pro\"><span style=\"font-size:12pt;\">&nbsp;&nbsp; </span><b><span style=\"font-size:13pt;\">= = CONFERÊNCIA = =</span></b></font>
+            <p align=\"center\"><font face=\"Myriad Pro\"><span style=\"font-size:12pt;\">&nbsp;&nbsp; </span><b><span style=\"font-size:13pt;\">= = CONFERï¿½NCIA = =</span></b></font>
         </td>
     </tr>
     <tr>
@@ -322,7 +322,7 @@ Diretoria do Baba</font></p>
         <td height=\"330\" colspan=\"3\" >
 		<p align=\"center\"><font face=\"arial\"><b><span style=\"font-size:18pt;\">APOIO:</span></b></p>
 <p align=\"center\" style=\"line-height:350%; margin-top:5; margin-bottom:0;\"><span style=\"font-size:28pt;\">
-<b>AQUI VOCÊ PODE ACRESCENTAR INFORMAÇÕES SOBRE APOIO OU RESPONSÁVEIS </b>
+<b>AQUI VOCï¿½ PODE ACRESCENTAR INFORMAï¿½ï¿½ES SOBRE APOIO OU RESPONSï¿½VEIS </b>
 </span></font></p>
 		</td>
     </tr>
@@ -331,7 +331,7 @@ Diretoria do Baba</font></p>
 echo"<hr>";
 }
 
-
+ 
 ?>
 
 
